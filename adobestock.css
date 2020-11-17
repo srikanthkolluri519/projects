@@ -1,0 +1,273 @@
+* {
+  padding:0;
+  margin:0;
+}
+* li {
+  list-style-type: none;
+}
+.header_container {
+display: flex;
+justify-content: space-between;
+padding: 0 1rem;
+background-color: #222;
+border-bottom: 5p red;
+}
+
+.opening_search_container {
+  display: inline-block flex;
+  justify-content: center;
+  height: 400px;
+  width: 100%;
+  background-image: url("https://i.redd.it/ic9y69r9xvf51.jpg");
+  background-size: 100% 100%;
+  color: white;
+}
+.companyheading {
+  text-align: left;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+.headingtext {
+  font-size: 40px;
+  padding: 50px;
+  text-align: center;
+}
+.saidby {
+text-align: right;
+padding-right: 40px;
+}
+input {
+  border: 0.5px solid black;
+  margin-left: auto;
+  font-size: 30px;
+  justify-content: center space-between;
+  text-align: center;
+  border-radius: 4px;
+  padding-left: 40px;
+}
+.btn {
+justify-content: center;
+ font-size: 25px;
+ background-color: aqua; 
+ color: black;
+ border: 0.5px solid lightblue;
+ border-radius: 10%;
+ padding: 3px;
+}
+hr {
+  justify-content: center;
+  text-align: center;
+}
+
+a {
+  color: #ddd;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.header_container li:hover {
+background-color: #111;
+}
+
+.header_container li {
+  display: inline-block;
+  padding: 1rem 0.5rem;
+  transition: background-color 0.1s ease-in;
+}
+.opening_search_container, input button {
+  position: relative;
+  justify-content: center;
+  text-align: center;
+}
+.offer_button_container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: skyblue;
+  color: white;
+  height: 40px;
+  width: 100%;
+  padding: 20px;
+}
+.start {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  background-color: skyblue;
+  border: 4px solid white;
+  border-end-end-radius: 50%;
+  padding: 5px;
+}
+.offer_button_container, p {
+  font-size: 25px;
+  text-align: center;
+}
+/*------------------------------------- section 1 starts ----------------------------------*/
+
+.bottom_container {
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 20px;
+  padding: 20px;
+  align-items: center;
+  text-align: center;
+  width: 95%;
+  background-color: white;
+}
+.about_page {
+  text-align: ceter;
+  color: white;
+  font-size: 20px;
+}
+.bottom_head {
+  justify-content: center;
+text-align: center;
+font-size: 20px;
+}
+.about_page p {
+color: blue;
+}
+.button_flexbox_container {
+  justify-content: center;
+  align-items: center;
+}
+.link_button {
+  border-radius: 5px;
+  color: white;
+  width: 400px;
+  height: 400px;
+  margin: 10px;
+  border: 2px solid black;
+  padding: 10px;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/c/c7/Hand_Model.jpg);
+  background-size: cover;
+}
+.link_button, p h3 {
+  text-align: bottom;
+  font-size: 20px;
+}
+
+/* ------ setion 2 starts ----- */
+
+.bottom_container_text {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 20px;
+  padding: 20px;
+  align-items: center;
+  text-align: center;
+  width: 95%;
+  background-color: white;;
+}
+.bottom_container_text img{
+  box-shadow: 6px slategrey;
+  width: 400px;
+  height:400px;
+}
+.left_image {
+  margin: 10px;
+  box-shadow: 10px 10px 10px #888888;
+  float: left;
+}
+.left_image_text {
+  display: inline-flex;
+  text-align: center;
+}
+.right_image {
+  margin: 10px;
+  box-shadow: 10px 10px 10px #888888;
+  float: right;
+}
+
+/*----- section 3 starts ----- */
+
+.bottom_container_list {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  width: 95%;
+  background-color: rgb(241, 207, 207);
+}
+.image2_text {
+  display: inline-block;
+}
+ul {
+  display: inline-flex;
+  flex-direction: row;
+}
+.minion_pic {
+  justify-content: space-around;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  border-radius:50%;
+  border: 2px solid red;
+}
+.contributor_btn {
+  font-size: 15px;
+  text-transform: capitalize;
+  padding: 10px;
+  color: blue;
+  border: 3px solid blue;
+  border-end-end-radius: 50%;
+
+}
+/* bottomcontainer code is above /*
+/*------------------------------------- section ends ----------------------------------*/
+
+/* footer  starts from here */
+.footer {
+  height: 400px;;
+  background-color: lightgrey;
+  color: white;
+  font-size: 20px;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  width: 95%;
+} 
+.footer_image {
+  width: 100px;
+  height: 100px;
+  box-shadow: 10px 10px 10px #888888;
+  margin: 30px;
+}
+.footer_btn {
+  margin: 20px;
+  background-color: lightgrey;
+  border-radius: 3px;
+  border: 1px solid black;
+}
+.footer_btn:hover {
+color:white;
+background-color: lightseagreen;
+}
+.footer_list {
+  float: left;
+  flex-direction: column;
+
+}
+.footer_list:hover {
+  color: blue;
+}
+.footer_text {
+  text-align: center;
+}
+.footer2 {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  background-color: rgb(24, 23, 23);
+}
